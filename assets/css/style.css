@@ -17,7 +17,7 @@ body {
 
 #animales {
     display: grid;
-    background-image: url(../img/background_animales.jpeg);
+    background-image: url(../img/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #082334;
