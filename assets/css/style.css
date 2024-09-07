@@ -1,15 +1,48 @@
-h2 {color:darkviolet;}
-img {width: 200px;
-border-radius: 20px;}
+body {
+    font-family: cursive;
+}
 
-body {display: grid;
+#zoologico {
+    display: grid;
     background-image: url(../img/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #082334;
     justify-content: center;
-    align-content:baseline;
+    align-content: baseline;
     min-height: 900px;
-    
+    text-align: center;
+    margin-top: 50px;
 }
 
+#animales {
+    display: grid;
+    background-image: url(../img/background_animales.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #082334;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 900px;
+}
+
+/* Blanco con 50% de opacidad */
+h2 {
+    color: darkviolet;
+}
+
+img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#logo {
+    width: 200px;
+
+}
