@@ -1,3 +1,17 @@
 h2 {color:darkviolet;}
 img {width: 200px;
 border-radius: 20px;}
+
+body {display: grid;
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #082334;
+    justify-content: center;
+    align-content:baseline;
+    min-height: 900px;
+    
+}
+.container {    
+    
+}
