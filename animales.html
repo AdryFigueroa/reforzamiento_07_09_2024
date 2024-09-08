@@ -13,33 +13,58 @@
 
 <body id="animales">
     <div class="container">
-        <h2 class="pudu">1. Pudú Esmeralda</h2>
-        <p>
-            Este pequeño ciervo tiene un pelaje verde esmeralda que lo hace parecer
-            una joya viviente. Es tímido pero curioso, y le encanta explorar los
-            rincones más escondidos del zoológico.
-        </p>
-        <img src="./assets/img/pudu-esmeralda.jpeg" alt="" id="esmeralda" />
-        <br>
-        <button onclick="cambiarImagen1()">Foto 1</button> / <button onclick="cambiarImagen2()">Foto 2</button>
-
-        <h2 class="huemul" id="plateado">2. Huemul Plateado</h2>
-        <p>
-            Este huemul tiene un pelaje plateado que brilla bajo la luz de la luna. Es
-            una criatura noble y tranquila, y su presencia inspira paz y serenidad en
-            el zoológico.
-        </p>
-        <img src="./assets/img/huemul-plateado.jpeg" alt="" id="imagen" />
-        <h2 class="elefante" id="rosado">4. Elefante Rosado</h2>
-        <p>
-            Este majestuoso elefante tiene una piel de un suave color rosado. Es
-            conocido por su naturaleza amigable y su habilidad para pintar con su
-            trompa. Los visitantes pueden disfrutar de sus obras de arte únicas.
-        </p>
-        <img src="./assets/img/elefante-rosado.jpeg" alt="mi elefante rosado" id="elefanteRosado" />
-        <br />
-        <small>creado mediante inteligencia artificial desde copilot.</small>
-        <a href="./index.html">Volver al inicio de mi zológico imaginario</a>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/pudu-esmeralda.jpeg" class="card-img-top" alt="pudu-esmeralda">
+            <div class="card-body">
+              <h5 class="card-title">Pudu Esmeralda</h5>
+              <p class="card-text">Este pequeño ciervo tiene un pelaje verde esmeralda que lo hace parecer
+                una joya viviente. Es tímido pero curioso, y le encanta explorar los
+                rincones más escondidos del zoológico.</p>
+            </div>
+            <div class="card-footer">
+                <button onclick="cambiarImagen1()">Foto 1</button> <br> <button onclick="cambiarImagen2()">Foto 2</button><br>
+                <small>creado mediante inteligencia artificial desde copilot.</small>
+        
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/huemul-plateado.jpeg" class="card-img-top" alt="huemul-plateado">
+            <div class="card-body">
+              <h5 class="card-title">Huemul Plateado</h5>
+              <p class="card-text">Este huemul tiene un pelaje plateado que brilla bajo la luz de la luna. Es
+                una criatura noble y tranquila, y su presencia inspira paz y serenidad en
+                el zoológico.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Pronto más información...</small><br>
+              <small>creado mediante inteligencia artificial desde copilot.</small>
+        
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/elefante-rosado.jpeg" class="card-img-top" alt="elefante-rosado">
+            <div class="card-body">
+              <h5 class="card-title">Elefante Rosado</h5>
+              <p class="card-text">Este majestuoso elefante tiene una piel de un suave color rosado. Es
+                conocido por su naturaleza amigable y su habilidad para pintar con su
+                trompa. Los visitantes pueden disfrutar de sus obras de arte únicas.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Pronto más información...</small><br>
+              <small>creado mediante inteligencia artificial desde copilot.</small>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+        <a href="./index.html">Volver al inicio de mi zoológico imaginario</a>
     </div>
     <!-- script -->
     <script src="./assets/js/script.js"></script>

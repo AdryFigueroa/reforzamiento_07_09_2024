@@ -11,9 +11,10 @@ body {
     justify-content: center;
     align-content: baseline;
     min-height: 900px;
-    text-align: center;
     margin-top: 50px;
+    text-align: center;
 }
+
 
 #animales {
     display: grid;
@@ -26,8 +27,9 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
+    margin: 20px;
     border-radius: 15px;
     max-width: 900px;
 }
@@ -46,3 +48,5 @@ img {
     width: 200px;
 
 }
+#zooText {text-align: justify; text-indent: 2em; margin: 0 5em 0 5em  ;  }
+a { color:darkmagenta; text-emphasis-style: bold; text-decoration: none; }
